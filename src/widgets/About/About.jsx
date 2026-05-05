@@ -1,0 +1,29 @@
+import './About.css'
+import { Container } from '@/shared/ui/Container/Container.jsx';
+import { Title } from '@/shared/ui/Title/Title.jsx';
+
+export const About = () => {
+  return (
+    <section className='about' id={'about'}>
+      <Container>
+          <Title>
+            О НАС
+          </Title>
+        <p className={'about__text'}>
+          Мы рады видеть вас! Мы рботаем для Вас с 2003 года. 14 лет мы наблюдаем, как с каждым днем
+          все больше людей заказывают жд билеты через интернет.
+          <br />
+          <br />
+          Сегодня можно заказать железнодорожные билеты онлайн всего в 2 клика, но стоит ли это делать?
+          Мы расскажем о преимуществах заказа через интернет.
+          <br />
+          <br />
+          <span>
+          Покупать жд билеты дешево можно за 90 суток до отправления поезда. <br />
+          Благодаря динамическому ценообразованию цена на билеты в это время самая низкая.
+          </span>
+        </p>
+      </Container>
+    </section>
+  );
+};

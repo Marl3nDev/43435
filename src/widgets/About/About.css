@@ -1,0 +1,15 @@
+.about {
+    padding: 144px 0 91px;
+}
+
+.about__text {
+    margin-top: 30px;
+    font-size: 24px;
+    padding-right: 229px;
+    padding-left: 28px;
+    border-left: var(--orange-color) 9px solid;
+}
+
+.about__text span {
+    font-weight: 600;
+}

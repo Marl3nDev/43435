@@ -1,0 +1,51 @@
+.booking {
+    padding: 79px 24.25px 52px 21px;
+    background: var(--secondary-color);
+    width: 100%;
+    background: rgba(41, 41, 41, 0.8);
+}
+
+.booking--horizontal {
+    padding: 28px 42px 76px 52px;
+}
+
+.booking--horizontal .booking__form {
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.booking__title {
+    margin-bottom: 15px;
+    margin-left: 7px;
+}
+
+.booking__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    position: relative;
+}
+
+.booking__date {
+    margin-top: 61px;
+}
+
+.booking--horizontal .booking__date {
+    margin-top: 0;
+}
+.booking__button {
+    margin: 92px 0 0 auto;
+}
+
+.booking--horizontal .booking__button {
+    margin-top: 12px;
+    grid-column: 2 / 3;
+}
+
+.booking__change-button {
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

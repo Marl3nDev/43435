@@ -1,0 +1,51 @@
+.location-input {
+    padding-right: 50px;
+    height: 60px;
+    position: relative;
+}
+
+.location-input__list {
+    position: absolute;
+    background-color: #F5F4F6;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    z-index: 99;
+    padding: 14px 22px 15px 28px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.location-input__icon {
+    position: absolute;
+    top: 50%;
+    right: 17.88px;
+    transform: translateY(-50%);
+}
+
+
+.location-input__item {
+    width: 100%;
+}
+
+.location-input__list-button {
+    width: 100%;
+    text-align: start;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.location-input__clue {
+    position: absolute;
+    left: 21px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--gray-color-3);
+}
+
+.location-input__clue-hidden {
+    opacity: 0;
+}

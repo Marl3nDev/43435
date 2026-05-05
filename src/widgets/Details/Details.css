@@ -1,0 +1,114 @@
+.details {
+    background-color: #3e3c41;
+    color: var(--gray-color);
+    padding: 35px 0;
+}
+
+.details__main-title {
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--gray-border-color);
+}
+
+.details__title {
+    color: var(--secondary-color);
+}
+
+.details__block {
+    padding: 22px 27px 34px;
+    border-bottom: 1px solid var(--gray-border-color);
+}
+
+.details__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.details__info-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.details__info-train {
+    text-align: end;
+}
+
+.details__info-name {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: end;
+    text-transform: capitalize;
+}
+
+.details__graphic {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+}
+
+.details__duration {
+    position: relative;
+}
+
+.details__duration-time {
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    text-wrap: nowrap;
+    transform: translate(-50%, -100%);
+}
+.details__graphic-item span {
+    font-size: 18px;
+    display: block;
+    font-weight: 400;
+    color: var(--gray-color-2);
+}
+
+.details__graphic-item:last-child
+{
+    text-align: end;
+}
+
+.details__info-place {
+    text-transform: capitalize;
+}
+
+.details__info-place span  {
+    display: block;
+    font-size: 16px;
+    color: var(--gray-color-2);
+}
+
+.details__info-place:last-child
+{
+    text-align: end;
+}
+
+.details__passengers .details__info-item {
+    align-items: center;
+}
+
+.details__info-price {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    gap: 7px;
+}
+
+.details__bottom {
+    padding: 30px 27px 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details__all-price {
+    display: flex;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--orange-color);
+    gap: 7px;
+}

@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #292929;
+    --secondary-color: #fff;
+    --black-color: #000;
+    --dark-color: #3E3C4;
+    --gray-color: #E5E5E5;
+    --gray-color-2: #928F94;
+    --gray-color-3: #C4C4C4;
+    --orange-color: #FFA800;
+
+
+    --white-bg: #fff;
+    --orange-bg: #FFA800;
+    --dark-bg: #3E3C41;
+    --black-bg: #000;
+    --gray-bg: #C4C4C4;
+
+    --orange-border-color: #FFA800;
+    --whtie-border-color: #fff;
+    --gray-border-color: #E5E5E5;
+    --black-border-color: #292929;
+    --gray-2-border-color: #928F94;
+    --gray-3-border-color: #C4C4C4;
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+.main {
+    flex-grow: 1;
+}

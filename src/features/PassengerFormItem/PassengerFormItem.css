@@ -1,0 +1,156 @@
+.passenger-form {
+    width: 100%;
+    background-color: var(--white-bg);
+    border: 1px solid var(--gray-3-border-color);
+}
+
+.passenger-form--closed .passenger-form__content {
+    display: none;
+}
+
+.passenger-form__top {
+    padding: 40px 23px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #F9F9F9;
+}
+
+.passenger-form__top-button {
+    height: 32px;
+}
+
+.passenger-form__delete {
+    margin-left: auto;
+    width: 32px;
+    display: grid;
+    place-items: center;
+}
+
+.passenger-form__select-wrapper {
+    border-top: 1px dashed #928F94;
+    padding: 32px 36px;
+}
+
+.passenger-form__select {
+    width: 280px
+}
+
+.passenger-form__inputs {
+    display: flex;
+    gap: 25px;
+    padding: 35px 36px 50px;
+}
+
+.passenger-form__inputs .passenger-form__item {
+    width: 100%;
+}
+
+.passenger-form__label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--gray-color-2);
+}
+
+.passenger-form__wrapper {
+    display: flex;
+    gap: 34px;
+    padding: 0 36px 45px;
+}
+
+.passenger-form__gender {
+    display: flex;
+}
+
+.passenger-form__gender-button {
+    width: 101px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--black-color);
+}
+
+.passenger-form__gender-button:last-child {
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #928F94;
+    border-left: 0;
+}
+
+.passenger-form__gender-button:first-child {
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #928F94;
+    border-right: 0;
+}
+
+.passenger-form__gender-button--active {
+    background-color: var(--orange-bg);
+}
+
+.passenger-form__birthday {
+    width: 240px;
+}
+
+.passenger-form__document {
+    padding: 37px 240px 33px 36px;
+    border-top: 1px dashed #928F94;
+    display: flex;
+    gap: 35px;
+}
+.passenger-form__document .passenger-form__item {
+    width: 100%;
+}
+
+.passenger-form__checkbox {
+    padding: 0 33px 31px 36px;
+}
+
+.passenger-form__select-full + .passenger-form__item {
+    width: 207px;
+}
+
+.passenger-form__bottom {
+    padding: 34px 30px;
+    border-top: 1px dashed #928F94;
+    position: relative;
+}
+
+.passenger-form__button {
+    margin-left: auto;
+    position: relative;
+    z-index: 30;
+}
+
+.passenger-form__number {
+    min-width: 207px;
+}
+
+.passenger-form__error {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    inset: 0;
+    background-color: #FFB59E;
+    padding: 0 24px;
+    z-index: 50;
+}
+
+.passenger-form__error span {
+    font-weight: 700;
+}
+
+.passenger-form__ok {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    inset: 0;
+    background-color: #B2F6A1;
+    padding: 0 24px;
+}
+
+.passenger-form__error-text {
+    max-width: 480px;
+}

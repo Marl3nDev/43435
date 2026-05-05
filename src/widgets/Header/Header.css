@@ -1,0 +1,23 @@
+.header {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+
+.header__nav {
+    margin-top: 15px;
+    padding: 26px 0 25px;
+    background-color: #292929;
+}
+
+.header__nav-inner {
+    display: flex;
+    gap: 84px;
+}
+
+.header__link {
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--secondary-color);
+}

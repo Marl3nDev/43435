@@ -1,0 +1,11 @@
+.container{
+    max-width: 1446px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container--row{
+    display: flex;
+    gap: 83px;
+    padding-bottom: 193px;
+}

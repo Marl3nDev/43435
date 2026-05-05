@@ -1,0 +1,37 @@
+.tickets-pagination {
+    margin-left: auto;
+    margin-top: 142px;
+}
+
+.tickets-pagination ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: flex-end;
+}
+
+.tickets-pagination a {
+    width: 85px;
+    height: 75px;
+    display: grid;
+    place-content: center;
+    border: 2px solid  var(--gray-3-border-color);
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--gray-color-2);
+    cursor: pointer;
+    --navigation-icon-color: var(--gray-color-2);
+}
+
+.tickets-pagination a:hover {
+    border: 2px solid var(--orange-border-color);
+    color: var(--orange-color);
+    --navigation-icon-color: var(--orange-color);
+}
+
+.tickets-pagination .selected a {
+    background-color: var(--orange-bg);
+    border: 1px solid var(--orange-border-color);
+    color: var(--secondary-color);
+}

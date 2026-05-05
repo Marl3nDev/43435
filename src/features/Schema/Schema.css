@@ -1,0 +1,36 @@
+.schema-name {
+    position: absolute;
+    top: 0;
+    left: 4.45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2px;
+    height: 16.78%;
+    color: var(--secondary-color);
+    background-color: var(--black-bg);
+}
+
+
+.seat-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 10;
+    display: flex;
+    min-width: 120px;
+}
+
+.seat-dropdown button {
+    padding: 8px 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    text-align: left;
+}
+
+.seat-dropdown button:hover {
+    background: #f0f0f0;
+}

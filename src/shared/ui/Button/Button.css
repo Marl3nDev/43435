@@ -1,0 +1,93 @@
+.button {
+    font-size: 24px;
+    font-weight: 700;
+    min-width: 325px;
+    height: 60px;
+    padding: 0 12px;
+    color: var(--primary-color);
+    background: var(--orange-color);
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    width: fit-content;
+    cursor: pointer;
+    transition: .2s box-shadow ease-in-out, .2s background-color ease-in-out, .2s color ease-in-out;
+}
+
+.button:disabled {
+    background: #928F94;
+}
+
+.button:not(:disabled):hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.button:not(:disabled):active {
+    border: 1px solid var(--orange-border-color);
+    background-color: transparent;
+    color: var(--orange-color);
+}
+
+.button--black-ghost:not(:disabled):hover {
+color: var(--orange-color);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.button--black-ghost:not(:disabled):active {
+   background: var(--orange-color);
+    color: var(--primary-color);}
+
+.button--ghost:not(:disabled):hover {
+    box-shadow: none;
+    background-color: #FFCA62;
+    border: 1px solid transparent;
+    color: #2D2B2F;
+}
+
+.button--ghost:not(:disabled):active {
+    background-color:var(--white-bg);
+    border: 1px solid transparent;
+    color: #2D2B2F;
+}
+.button--regular {
+    font-weight: 400;
+}
+
+.button--ghost {
+    background-color: transparent;
+    border: 1px solid var(--whtie-border-color);
+}
+
+.button--black-ghost {
+    border: 1px solid var(--black-border-color);
+    background-color: transparent;
+}
+.button--white-color {
+    color: var(--secondary-color);
+}
+
+.button--full-s {
+    min-width: 100%;
+    width: 100%;
+    height: 39px;
+}
+
+.button--sm {
+    min-width: 228px;
+    height: 39px;
+}
+
+.button--md {
+    min-width: 169px;
+}
+
+.button--lg {
+    min-width: 222px;
+}
+
+.button--xl {
+    min-width: 303px;
+    height: 52px;
+}
+
+

@@ -1,0 +1,94 @@
+.result {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.result__block {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    width: 100%;
+    border: 1px solid var(--gray-3-border-color);
+}
+
+.result__block-top {
+    padding: 34px;
+    background-color: #f9f9f9;
+    border-bottom: 1px dashed var(--gray-3-border-color);
+}
+
+.result__block .ticket {
+    box-shadow: none;
+    border: none;
+}
+
+.result__passengers {
+    display: flex;
+}
+
+.result__list {
+    padding-top: 31px;
+    flex-grow: 1;
+}
+
+.result__item {
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+}
+
+
+.result__item-person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+
+.result__item-name {
+    margin-bottom: 12px;
+}
+
+.result__info-value {
+    color: var(--gray-color-2);
+    margin-bottom: 12px;
+}
+
+.result__right {
+    width: 281px;
+    border-left: 1px dashed var(--gray-2-border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 25px;
+    justify-content: flex-end;
+    gap: 28px;
+}
+
+
+.result__right-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.result__price {
+    font-weight: 700;
+}
+
+.result__payment {
+    display: flex;
+}
+
+.result__payment-type {
+    flex-grow: 1;
+    font-size: 24px;
+    padding: 44px 76px 76px 35px;
+}
+
+.result__button {
+    margin: 123px 0 0 auto;
+}

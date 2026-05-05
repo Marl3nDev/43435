@@ -1,0 +1,11 @@
+.tickets {
+    flex-grow: 1;
+}
+
+.tickets__list {
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+}
+
+

@@ -1,0 +1,33 @@
+.switcher {
+    width: 72px;
+    height: 19px;
+    border-radius: 10px;
+    background-color: var(--white-bg);
+    position: relative;
+    transition: .2s background-color ease-in-out;
+    cursor: pointer;
+}
+
+.switcher--active {
+    background-color: #FCDC9D;
+}
+
+.switcher__circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: var(--gray-bg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: .2s left ease-in-out;
+}
+
+.switcher--active .switcher__circle {
+    left: calc(100% - 28px);
+}
+
+.switcher--active .switcher__circle {
+    background-color: var(--orange-bg);
+}

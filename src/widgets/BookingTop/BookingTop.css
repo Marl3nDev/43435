@@ -1,0 +1,5 @@
+.booking-top {
+    background: url("@/shared/assets/images/booking-top.jpg")  no-repeat center / cover ;
+    padding-top: 269px;
+    color: var(--secondary-color);
+}

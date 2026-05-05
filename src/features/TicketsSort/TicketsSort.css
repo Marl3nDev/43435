@@ -1,0 +1,35 @@
+.tickets-sort {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 47px;
+}
+
+.tickets-sort__select-wrapper {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tickets-sort__select-wrapper span,
+.tickets-sort__limit span{
+    color: var(--gray-color-2);
+}
+
+.tickets-sort__select {
+    width: 139px;
+}
+
+.tickets-sort__limit {
+    display: flex;
+    gap: 5px;
+}
+
+.tickets-sort__limit-button {
+    color: var(--gray-color-2);
+}
+
+.tickets-sort__limit-button--active {
+    color: var(--primary-color) ;
+}

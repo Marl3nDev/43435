@@ -1,0 +1,35 @@
+.how-it-work {
+    padding: 60px 0 95px;
+    color: var(--secondary-color);
+    background: url("@/shared/assets/images/how-it-work-bg.jpg") no-repeat center / cover;
+}
+
+.how-it-work__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.how-it-work__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 97px;
+    gap: 107px;
+}
+
+.how-it-work__item {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    align-items: center;
+}
+
+.how-it-work__item:first-child {
+    margin-right: 30px;
+}
+
+.how-it-work__value {
+    font-size: 24px;
+    max-width: 226px;
+    text-align: center;
+}

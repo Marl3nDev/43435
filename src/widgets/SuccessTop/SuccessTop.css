@@ -1,0 +1,17 @@
+.success-top {
+    background: url("@/shared/assets/images/success-top.jpg") no-repeat center/cover;
+}
+
+.success-top__inner  {
+    height: 834px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.success-top__title {
+    margin-top: auto;
+    font-size: 72px;
+    color: var(--secondary-color);
+    font-weight: 700;
+    margin-bottom: 230px;
+}

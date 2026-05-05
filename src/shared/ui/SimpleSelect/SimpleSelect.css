@@ -1,0 +1,44 @@
+.simple-select {
+    position: relative;
+    z-index: 10;
+}
+
+
+.simple-select__button {
+    height: 50px;
+    padding:0  14px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #928F94;
+    cursor: pointer;
+    text-align: start;
+}
+
+.simple-select__list {
+    position: absolute;
+    top: 102%;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: var(--white-bg);
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.simple-select__item-button {
+    width: 100%;
+    padding: 8px 7px;
+    text-align: start;
+    border-bottom: 1px solid #E5E5E5 ;
+}
+
+.simple-select__polygon {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.simple-select--open .simple-select__polygon {
+    transform: translateY(-50%) rotate(180deg);
+}

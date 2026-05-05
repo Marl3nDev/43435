@@ -1,0 +1,62 @@
+.last-tickets {
+    color: var(--primary-color);
+}
+
+.last-tickets__title {
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+
+.last-tickets__list {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 26px;
+}
+
+.last-tickets__item {
+padding: 18px 16px 14px 18px;
+    border: 1px solid #c4c3c4;
+    box-shadow: 0 2px 2px 0 rgba(62, 60, 65, 0.25);
+    background: var(--white-bg);
+    --services-icon-color:#E5E5E5;
+}
+
+.last-tickets__direction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-tickets__city {
+    margin-bottom: 1px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.last-tickets__station {
+    font-size: 16px;
+    color: var(--gray-color-2);
+}
+
+.last-tickets__to {
+    text-align: end;
+}
+
+
+.last-tickets__services {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 24px;
+}
+
+.last-tickets__price {
+    font-size: 16px;
+    color: var(--gray-color-2);
+}
+
+.last-tickets__price .last-tickets__price-value {
+    color: var(--orange-color);
+    font-weight: 700;
+    font-size: 36px;
+}

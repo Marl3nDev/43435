@@ -1,0 +1,23 @@
+.toggle-content {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.toggle-content__button {
+    margin-left: auto;
+    height: 20px;
+    --toggle-icon-color: var(--secondary-color)
+}
+
+.toggle-content__button--visible {
+    --toggle-icon-color: var(--gray-color-3)
+}
+
+.toggle-content__button:hover {
+    --toggle-icon-color: #FCDC9D
+}
+
+.toggle-content * {
+    margin-bottom: 0;
+}

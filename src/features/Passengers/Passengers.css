@@ -1,0 +1,28 @@
+.passengers {
+    width: 100%;
+}
+
+.passengers__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.passengers__button {
+    margin: 103px 0 0 auto;
+}
+
+.passengers__add {
+    height: 97px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 26px;
+    background: var(--white-bg);
+    font-size: 30px;
+    border: 1px solid var(--gray-3-border-color);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+
+}
