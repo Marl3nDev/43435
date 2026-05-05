@@ -7,7 +7,6 @@ import svgr from 'vite-plugin-svgr'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/43435/',
   plugins: [react(), svgr(),  visualizer({
     open: true,
     gzipSize: true,
